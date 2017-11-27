@@ -1,0 +1,23 @@
+{
+  "title": "Music Composition Exercises",
+  "description": "Music Composition Exercises",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Pjotr Savitski",
+  "license": "MIT",
+  "machineName": "H5P.MusicCompositionExercises",
+  "preloadedJs": [
+    {
+      "path": "scripts/index.js"
+    }
+  ],
+  "editorDependencies": [
+    {
+      "machineName": "H5PEditor.MusicCompositionExercises",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ]
+}

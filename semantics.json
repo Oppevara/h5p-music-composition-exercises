@@ -1,0 +1,70 @@
+[
+  {
+    "name": "title",
+    "label": "Title",
+    "decription": "Title of the musical exercise",
+    "type": "text"
+  },
+  {
+    "name": "description",
+    "label": "Description",
+    "description": "General description of the musical exercise",
+    "type": "text",
+    "widget": "html",
+    "tags": [
+      "strong",
+      "em",
+      "u",
+      "a",
+      "ul",
+      "ol",
+      "h2",
+      "h3",
+      "hr",
+      "sub",
+      "sup"
+    ],
+    "optional": true
+  },
+  {
+    "name": "type",
+    "label": "Type of music exercise",
+    "type": "select",
+    "options": [
+      {
+        "value": "1.2.2",
+        "label": "Find missing duration"
+      },
+      {
+        "value": "1.2.3",
+        "label": "Name duration"
+      },
+      {
+        "value": "1.2.4",
+        "label": "Describe note"
+      },
+      {
+        "value": "1.3.5",
+        "label": "Recognize key signature"
+      },
+      {
+        "value": "1.3.7",
+        "label": "Draw barlines"
+      },
+      {
+        "value": "1.8.1",
+        "label": "Draw note"
+      }
+    ],
+    "default": "1.2.2"
+  },
+  {
+    "name": "attempts",
+    "label": "Number of attempts",
+    "type": "number",
+    "default": 10,
+    "min": 1,
+    "steps": 1,
+    "decimals": 0
+  }
+]
