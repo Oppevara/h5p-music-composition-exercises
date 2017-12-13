@@ -33,27 +33,27 @@
     "options": [
       {
         "value": "1.2.2",
-        "label": "Find missing duration"
-      },
-      {
-        "value": "1.2.3",
         "label": "Name duration"
       },
       {
+        "value": "1.2.3",
+        "label": "Find missing duration"
+      },
+      {
         "value": "1.2.4",
-        "label": "Describe note"
-      },
-      {
-        "value": "1.3.5",
-        "label": "Recognize key signature"
-      },
-      {
-        "value": "1.3.7",
         "label": "Draw barlines"
       },
       {
-        "value": "1.8.1",
+        "value": "1.3.5",
+        "label": "Describe note"
+      },
+      {
+        "value": "1.3.7",
         "label": "Draw note"
+      },
+      {
+        "value": "1.8.1",
+        "label": "Recognize key signature"
       }
     ],
     "default": "1.2.2"
