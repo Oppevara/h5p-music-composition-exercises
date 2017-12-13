@@ -66,5 +66,14 @@
     "min": 1,
     "steps": 1,
     "decimals": 0
+  },
+  {
+    "name": "preview",
+    "label": "",
+    "type": "text",
+    "widget": "musicCompositionExercises",
+    "musicCompositionExercises": {
+      "typeField": "type"
+    }
   }
 ]
