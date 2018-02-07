@@ -32,31 +32,139 @@
     "type": "select",
     "options": [
       {
-        "value": "1.2.2",
-        "label": "Name duration"
+        "value": "1.1",
+        "label": "Vali sobiv helivältuse märk"
       },
       {
-        "value": "1.2.3",
-        "label": "Find missing duration"
+        "value": "1.2",
+        "label": "Määra helivältus"
       },
       {
-        "value": "1.2.4",
-        "label": "Draw barlines"
+        "value": "1.3",
+        "label": "Leia puuduv vältus"
       },
       {
-        "value": "1.3.5",
-        "label": "Describe note"
+        "value": "1.4",
+        "label": "Lisa taktijoon"
       },
       {
-        "value": "1.3.7",
-        "label": "Draw note"
+        "value": "1.5",
+        "label": "Määra taktimõõt"
       },
       {
-        "value": "1.8.1",
-        "label": "Recognize key signature"
+        "value": "2.5",
+        "label": "Kirjelda helikõrguse asukohta: viiulivõti"
+      },
+      {
+        "value": "2.6",
+        "label": "Kirjelda helikõrguse asukohta: bassivõti"
+      },
+      {
+        "value": "2.7",
+        "label": "Kirjuta helikõrgus tähtnime järgi: viiulivõti"
+      },
+      {
+        "value": "2.8",
+        "label": "Kirjuta helikõrgus silpnime järgi: viiulivõti"
+      },
+      {
+        "value": "2.9",
+        "label": "Mis noot see on? Viiulivõti"
+      },
+      {
+        "value": "2.10",
+        "label": "Mis klahv see on? Viiulivõti"
+      },
+      {
+        "value": "2.11",
+        "label": "Kirjuta helikõrgus tähtnime järgi : bassivõti"
+      },
+      {
+        "value": "2.12",
+        "label": "Kirjuta helikõrgus silpnime järgi: bassivõti"
+      },
+      {
+        "value": "2.13",
+        "label": "Mis noot see on? Bassivõti"
+      },
+      {
+        "value": "2.14",
+        "label": "Mis klahv see on? Bassivõti"
+      },
+      {
+        "value": "2.15",
+        "label": "Leia enharmooniliselt vastav noot tähtnimetuse järgi."
+      },
+      {
+        "value": "2.16",
+        "label": "Leia enharmooniliselt vastav noot silpminetuse järgi."
+      },
+      {
+        "value": "2.17",
+        "label": "Viiulivõtmest bassivõtmesse"
+      },
+      {
+        "value": "2.18",
+        "label": "Bassivõtmest viiulivõtmesse"
+      },
+      {
+        "value": "2.19",
+        "label": "Mis oktavis see noot on? Viiulivõti."
+      },
+      {
+        "value": "2.20",
+        "label": "Mis oktavis see noot on? Bassivõti."
+      },
+      {
+        "value": "3.1",
+        "label": "Ehita intervall üles. Viiulivõti."
+      },
+      {
+        "value": "3.2",
+        "label": "Ehita intervall alla. Viiulivõti."
+      },
+      {
+        "value": "3.3",
+        "label": "Ehita intervall üles. Bassivõti."
+      },
+      {
+        "value": "3.4",
+        "label": "Ehita intervall alla. Bassivõti."
+      },
+      {
+        "value": "3.5",
+        "label": "Ehita akord üles. Viiulivõti."
+      },
+      {
+        "value": "3.6",
+        "label": "Ehita akord alla. Viiulivõti."
+      },
+      {
+        "value": "3.7",
+        "label": "Ehita akord üles. Bassivõti."
+      },
+      {
+        "value": "3.8",
+        "label": "Ehita akord alla. Bassivõti."
+      },
+      {
+        "value": "7.1",
+        "label": "Määra helistik"
+      },
+      {
+        "value": "7.2",
+        "label": "Kirjuta duur-helirea nimetus"
+      },
+      {
+        "value": "7.3",
+        "label": "Kirjuta moll-helirea nimetus"
+      },
+      {
+        "value": "7.4",
+        "label": "Ehita helirida antud noodist üles"
       }
     ],
-    "default": "1.2.2"
+    "default": "1.1"
   },
   {
     "name": "attempts",
