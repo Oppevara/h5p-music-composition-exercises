@@ -1,0 +1,10 @@
+.h5p-music-composition-exercises .h5p-music-composition-exercises-title,
+.h5p-music-composition-exercises .h5p-music-composition-exercises-description,
+.h5p-music-composition-exercises .h5p-music-composition-exercise {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.h5p-music-composition-exercises .h5p-music-composition-exercise label {
+  display: inline !important;
+}

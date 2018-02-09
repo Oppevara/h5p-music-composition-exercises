@@ -19,6 +19,7 @@
    function MusicCompositionExercises (options, id) {
      this.options = options;
      this.id = id;
+     this.exercise = null;
    }
 
    /**
@@ -56,12 +57,28 @@
      return this.options.type;
    };
 
+   MusicCompositionExercises.prototype.hasVexTabDiv = function() {
+     return !!window.VexTabDiv;
+   };
+
    /**
     * Returns number of attempts
     * @return {integer} Number of attempts
     */
    MusicCompositionExercises.prototype.getAttempts = function() {
      return this.options.attempts;
+   };
+
+   MusicCompositionExercises.prototype.initExercise = function($container) {
+     H5P.MusicCompositionExercisesLibrary.generateHtml(this, $container);
+     try {
+       this.exercise = H5P.MusicCompositionExercisesLibrary.createExerciseInstance(this.getType(), $container.get(0), 'mainCanvas');
+     }
+     catch(err) {
+       if ( console && console.error ) {
+         console.error(err);
+       }
+     }
    };
 
    /**
@@ -72,6 +89,9 @@
    MusicCompositionExercises.prototype.attach = function($container) {
      var self = this;
      self.$container = $container;
+     self.$exerciseContainer = $('<div>', {
+       'class': 'h5p-music-composition-exercise'
+     });
 
      $container.addClass('h5p-music-composition-exercises');
      $('<h3>', {
@@ -86,15 +106,18 @@
        }).appendTo($container);
      }
 
-     // TODO These two are not required and should be replaced with exercise itself
-     $('<div>', {
-       'class': 'h5p-music-composition-exercises-type',
-       'text': self.getType()
-     }).appendTo($container);
-     $('<div>', {
-       'class': 'h5p-music-composition-exercises-attempts',
-       'text': self.getAttempts()
-     }).appendTo($container);
+     self.$exerciseContainer.appendTo(self.$container);
+
+     if ( !self.hasVexTabDiv() ) {
+       var intervalId = setInterval(function() {
+         if ( self.hasVexTabDiv() ) {
+           clearInterval(intervalId);
+           self.initExercise(self.$exerciseContainer);
+         }
+       }, 150);
+     } else {
+       self.initExercise(self.$container);
+     }
    };
 
    return MusicCompositionExercises;

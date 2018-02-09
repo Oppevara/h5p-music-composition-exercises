@@ -13,6 +13,18 @@
       "path": "scripts/index.js"
     }
   ],
+  "preloadedCss": [
+    {
+      "path": "styles/music-composition-exercises.css"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.MusicCompositionExercisesLibrary",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ],
   "editorDependencies": [
     {
       "machineName": "H5PEditor.MusicCompositionExercises",
