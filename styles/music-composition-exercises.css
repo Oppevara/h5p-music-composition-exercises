@@ -8,3 +8,7 @@
 .h5p-music-composition-exercises .h5p-music-composition-exercise label {
   display: inline !important;
 }
+
+.h5p-music-composition-exercises .h5p-music-composition-exercise table tr {
+  background: none;
+}
