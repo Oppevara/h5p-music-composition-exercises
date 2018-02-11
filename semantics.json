@@ -30,6 +30,24 @@
     "name": "type",
     "label": "Type of music exercise",
     "type": "select",
+    "optgroups": [
+      {
+        "value": "1",
+        "label": "Helivältus"
+      },
+      {
+        "value": "2",
+        "label": "Helikõrgus"
+      },
+      {
+        "value": "3",
+        "label": "Akord"
+      },
+      {
+        "value": "7",
+        "label": "Harmoonia"
+      }
+    ],
     "options": [
       {
         "value": "1.1",
@@ -164,7 +182,8 @@
         "label": "Ehita helirida antud noodist üles"
       }
     ],
-    "default": "1.1"
+    "default": "1.1",
+    "widget": "mceOptgroupSelect"
   },
   {
     "name": "attempts",
