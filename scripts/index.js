@@ -73,6 +73,7 @@
      H5P.MusicCompositionExercisesLibrary.generateHtml(this, $container);
      try {
        this.exercise = H5P.MusicCompositionExercisesLibrary.createExerciseInstance(this.getType(), $container.get(0), 'mainCanvas');
+       H5P.MusicCompositionExercisesLibrary.setMaxQuestions(this, $container, this.getAttempts());
      }
      catch(err) {
        if ( console && console.error ) {

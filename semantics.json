@@ -201,7 +201,8 @@
     "type": "text",
     "widget": "musicCompositionExercises",
     "musicCompositionExercises": {
-      "typeField": "type"
+      "typeField": "type",
+      "attemptsField": "attempts"
     }
   }
 ]
