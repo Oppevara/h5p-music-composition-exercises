@@ -1,14 +1,14 @@
 [
   {
     "name": "title",
-    "label": "Title",
-    "decription": "Title of the musical exercise",
+    "label": "Pealkiri",
+    "description": "Muusikaharjutuse pealkiri",
     "type": "text"
   },
   {
     "name": "description",
-    "label": "Description",
-    "description": "General description of the musical exercise",
+    "label": "Kirjeldus",
+    "description": "Muusikaharjutuse ülesande kirjeldus",
     "type": "text",
     "widget": "html",
     "tags": [
@@ -28,7 +28,7 @@
   },
   {
     "name": "type",
-    "label": "Type of music exercise",
+    "label": "Muusikaharjutuse tüüp",
     "type": "select",
     "optgroups": [
       {
@@ -187,10 +187,11 @@
   },
   {
     "name": "attempts",
-    "label": "Number of attempts",
+    "label": "Katsete arv",
+    "description": "Katsete arvu rakendatakse ainult testi sooritamisel",
     "type": "number",
-    "default": 10,
-    "min": 1,
+    "default": 5,
+    "min": 5,
     "steps": 1,
     "decimals": 0
   },
