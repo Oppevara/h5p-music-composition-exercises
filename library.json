@@ -18,6 +18,7 @@
       "path": "styles/music-composition-exercises.css"
     }
   ],
+  "embedTypes": ["iframe"],
   "preloadedDependencies": [
     {
       "machineName": "H5P.MusicCompositionExercisesLibrary",
